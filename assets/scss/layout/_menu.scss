@@ -1,0 +1,25 @@
+.nav{
+  position: fixed;
+  min-width: 296px;
+  min-height: 100vh;
+}
+.membericon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  img{
+    max-width: 100%;
+  }
+}
+.nav-link.active{
+  color: $success;
+}
+.nav-link.active::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 4px;
+  height: 32px;
+  background-color: $success;
+}
