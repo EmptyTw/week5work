@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
-    <script type="module" crossorigin src="/week5work/assets/index-2b379613.js"></script>
-    <link rel="stylesheet" href="/week5work/assets/index-13db25dd.css">
+    <script type="module" crossorigin src="/week5work/assets/main-08eb9a60.js"></script>
+    <link rel="stylesheet" href="/week5work/assets/main-13db25dd.css">
   </head>
   <body>
     
@@ -75,7 +75,7 @@
             <td class="py-3">emir.wicks@mail.com</td>
             <td class="py-3">Yes</td>
             <td class="py-3 d-flex justify-content-end">
-              <a href="#"><span class="material-icons me-3">visibility</span></a>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="material-icons me-3">visibility</span></a>
               <a href="#"><span class="material-icons">edit</span></a>
             </td> 
           </tr>
@@ -194,6 +194,49 @@
       </nav> 
     </main>
     
+    <!-- Modal -->
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered">
+    <div class="modal-content rounded-0">
+      <div class="modal-body p-5 d-flex">
+        <div class="me-4">
+          <img src="/week5work/assets/emir-3d7a4b39.jpeg" alt="emir" srcset="" width="140" height="140">
+        </div>
+        <div class="flex-fill">
+          <p class="mb-2 fs-6 d-flex align-items-center justify-content-between">#1
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </p>
+          <p class="mb-2 fs-6">Adiin</p>
+          <p class="mb-2 fs-4 fw-bold">Emir Wicks</p>
+          <p class="mb-2 fs-7 text-secondary">emir.wicks@mail.com</p>
+          <div class="fs-6">
+            
+            <!-- <button class="accordion-button collapsed d-flex justify-content-between" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            <p class="fs-7">Verified</p>
+            <span class="material-icons ms-auto link-success">expand_more</span>
+            </button> -->
+            <a href="#" data-bs-toggle="collapse" 
+              data-bs-target="#flush-collapseOne" class="d-flex justify-content-between" aria-controls="flush-collapseOne">
+              <p class="fs-7">Verified</p>
+              <span class="material-icons ms-auto link-success">expand_more</span>
+            </a>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" 
+            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body d-flex justify-content-end">
+                <button class="btn btn-outline-danger me-3 px-6 fw-bold rounded-1">Deactivate</button>
+                <button class="btn btn-success fw-bold px-4">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+     
+    </div>
+  </div>
+</div>
     
     
 
