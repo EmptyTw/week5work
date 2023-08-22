@@ -1,10 +1,11 @@
 @import "../../node_modules/bootstrap/scss/functions";
+@import './helpers/variables';
 @import "../../node_modules/bootstrap";
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0");
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;700&family=ROBOTO+MONO&display=swap");
 
-@import './helpers/variables';
+
 @import './base/default';
 //Layout
 @import './layout/menu.scss';
